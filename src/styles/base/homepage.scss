@@ -1,0 +1,143 @@
+.homecontainer {
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 2.5% 2%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.div-container {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  width: 7%;
+  height: 100%;
+}
+
+.redes-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.redes a {
+  width: 60%;
+  height: auto;
+  margin-bottom: 20%;
+}
+
+.foto-titulo {
+  background-image: url(https://i.ibb.co/xLTxbSC/fondo-jean-2.png);
+  background-repeat: no-repeat;
+  background-size: 43% auto;
+  background-position: 0% 50%;
+  height: 100%;
+  width: 87%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.foto-titulo div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 19%;
+  padding-bottom: 8%;
+  width: 74%;
+  height: auto;
+}
+.foto-titulo h1 {
+  font-size: 4.3vw;
+  margin-bottom: 2%;
+}
+
+.foto-titulo h2 {
+  font-size: 2.8vw;
+  font-weight: normal;
+  letter-spacing: 1.1em;
+}
+
+@media (max-width: 832px) {
+  .div-container {
+    flex-direction: column;
+    order: 0;
+  }
+
+  .redes {
+    flex-direction: row;
+    order: 2;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+  }
+
+  .foto-titulo {
+    order: 1;
+    background-size: 56% auto;
+    align-items: flex-end;
+  }
+
+  .foto-titulo div {
+    padding-left: 15%;
+  }
+
+  .foto-titulo h1 {
+    font-size: 5.1vw;
+  }
+
+  .foto-titulo h2 {
+    font-size: 3.2vw;
+    letter-spacing: 1.1em;
+  }
+
+  .redes a {
+    width: auto;
+    height: 80%;
+    margin-left: 4%;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 734px) {
+  .foto-titulo {
+    background-size: 80% auto;
+    align-items: center;
+    justify-content: flex-end;
+    background-position: 50% 50%;
+  }
+
+  .foto-titulo div {
+    justify-content: center;
+    height: 30%;
+    align-items: center;
+    padding: 0;
+  }
+
+  .foto-titulo h1 {
+    text-align: center;
+  }
+
+  .foto-titulo h2 {
+    text-align: center;
+    padding-left: 5%;
+  }
+}

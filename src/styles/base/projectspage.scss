@@ -1,0 +1,142 @@
+.projects-container {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 6.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // background-color: pink;
+}
+
+.contenedor {
+  // background-color: gray;
+  max-height: 400px;
+  height: auto;
+  width: 95%;
+  max-width: 1500px;
+  margin: auto auto;
+}
+
+.contenedor h3 {
+  font-weight: lighter;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor hr {
+  margin: 0;
+  margin-bottom: 1%;
+  background-color: white;
+  width: 100%;
+}
+
+.projects-container h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.projects-carrusel {
+  // background-color: red;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 8px white;
+  margin: 0 auto;
+}
+
+.carrusel-items {
+  display: flex;
+  // background-color: gray;
+  height: 95%;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.carrusel-item {
+  height: 92%;
+  min-width: 14rem;
+  max-width: 17rem;
+  //   background-color: yellow;
+  margin-right: 5%;
+  line-height: 0;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.carrusel-item a {
+  margin: 0;
+  padding: 0;
+}
+
+.carrusel-item img {
+  height: 78%;
+  width: 100%;
+}
+
+.carrusel-item p {
+  line-height: 0;
+  font-weight: bold;
+  margin-top: 6%;
+  text-align: center;
+  font-size: 70%;
+}
+
+// ------------------------>>>>>>>>>>>>>
+
+@media (max-width: 1041px) {
+  .contenedor {
+    height: 28%;
+    margin-top: 1%;
+  }
+
+  .carrusel-item {
+    min-width: 12rem;
+    max-width: 15rem;
+  }
+}
+
+@media (max-width: 919px) {
+  .contenedor {
+    margin: 3% auto;
+  }
+}
+
+@media (max-width: 495px) {
+  .projects-container {
+    padding-top: 20%;
+    padding-bottom: 2.5%;
+    justify-content: space-around;
+  }
+
+  .contenedor {
+    margin: 0 auto;
+  }
+
+  .contenedor hr {
+    margin: 0;
+  }
+}
+
+@media (max-width: 335px) {
+  .projects-container {
+    padding-top: 25%;
+  }
+}
+
+@media (min-height: 1180px) {
+  .contenedor {
+    height: 17%;
+  }
+
+  .projects-container {
+    padding: 25% 0;
+    justify-content: space-between;
+  }
+}

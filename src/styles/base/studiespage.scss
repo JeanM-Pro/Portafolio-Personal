@@ -1,0 +1,162 @@
+.studies-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5% 2.5% 3%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 800px;
+  max-height: 700px;
+  width: 45%;
+  height: 80%;
+  box-sizing: border-box;
+  // background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  // align-items: center;
+}
+
+.image-container {
+  width: 97%;
+  height: 90%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 8px white;
+  overflow-x: hidden;
+  // background-color: red;
+}
+
+.skills-container {
+  width: 97%;
+  height: 90%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 8px white;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  // background-color: red;
+}
+
+.images-content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.item {
+  cursor: grab;
+  height: 97%;
+  min-width: 92%;
+  display: flex;
+  // background-color: rebeccapurple;
+  margin-left: 10px;
+}
+
+.item img {
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+.icono-container {
+  height: 21%;
+  width: 21%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icono-container img {
+  height: 75%;
+  width: 70%;
+}
+
+.container hr {
+  background-color: white;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+@media (max-width: 893px) {
+  .studies-container {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 12%;
+    padding-bottom: 0;
+  }
+
+  .container {
+    width: 400px;
+    height: 260px;
+  }
+
+  .icono-container img {
+    height: 75%;
+    width: 55%;
+  }
+}
+
+@media (max-width: 570px) {
+  .studies-container {
+    justify-content: center;
+  }
+
+  .container {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 439px) {
+  .container {
+    width: 320px;
+    height: 210px;
+  }
+}
+
+@media (max-width: 414px) {
+  .container {
+    width: 320px;
+    height: 210px;
+    margin-top: 20%;
+  }
+}
+
+@media (min-height: 1180px) {
+  .container {
+    width: 550px;
+    height: 400px;
+    margin: 0;
+  }
+
+  .studies-container {
+    justify-content: space-around;
+    padding-top: 20%;
+  }
+}
+
+@media (min-width: 912px) and (min-height: 1368px) {
+  .studies-container {
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20%;
+  }
+}
+
+@media (max-width: 280px) {
+  .container {
+    width: 250px;
+    height: 190px;
+    margin-top: 20%;
+  }
+}
