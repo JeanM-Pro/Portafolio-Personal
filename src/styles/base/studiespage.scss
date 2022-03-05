@@ -15,11 +15,9 @@
   width: 45%;
   height: 80%;
   box-sizing: border-box;
-  // background-color: aqua;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  // align-items: center;
 }
 
 .image-container {
@@ -30,7 +28,6 @@
   align-items: center;
   box-shadow: 2px 2px 8px white;
   overflow-x: hidden;
-  // background-color: red;
 }
 
 .skills-container {
@@ -42,7 +39,6 @@
   box-shadow: 2px 2px 8px white;
   flex-wrap: wrap;
   justify-content: flex-start;
-  // background-color: red;
 }
 
 .images-content {
@@ -57,7 +53,6 @@
   height: 97%;
   min-width: 92%;
   display: flex;
-  // background-color: rebeccapurple;
   margin-left: 10px;
 }
 
