@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portafolio-personal/static/css/main.aca72c52.css",
+    "main.js": "/portafolio-personal/static/js/main.1a9ec6e7.js",
+    "static/media/fondo.mp4": "/portafolio-personal/static/media/fondo.1964f037948b785a5311.mp4",
+    "static/media/image4.jpg": "/portafolio-personal/static/media/image4.9600d17ccfbce503c23c.jpg",
+    "static/media/cvprueba.pdf": "/portafolio-personal/static/media/cvprueba.dca17b4f4aeb95a3bab3.pdf",
+    "static/media/icono7.png": "/portafolio-personal/static/media/icono7.a2c7a38c8d321d9b8199.png",
+    "static/media/icono11.png": "/portafolio-personal/static/media/icono11.4c027ad019e0bbfcbb9c.png",
+    "static/media/image3.jpg": "/portafolio-personal/static/media/image3.1250b8e7bd984751cb7f.jpg",
+    "static/media/icono4.png": "/portafolio-personal/static/media/icono4.8e5acefa335fa9496776.png",
+    "static/media/image2.png": "/portafolio-personal/static/media/image2.b423a497da1dee47e2f0.png",
+    "static/media/icono3.png": "/portafolio-personal/static/media/icono3.151af51a70f5309e06e8.png",
+    "static/media/image1.png": "/portafolio-personal/static/media/image1.3a5d00ae3336be208288.png",
+    "static/media/icono10.png": "/portafolio-personal/static/media/icono10.125d35a51d5b9511fcb8.png",
+    "static/media/icono5.png": "/portafolio-personal/static/media/icono5.3a04bad01c1ef2a55a3b.png",
+    "static/media/icono1.png": "/portafolio-personal/static/media/icono1.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/icono2.png": "/portafolio-personal/static/media/icono2.cbabeeefa3bd83be8a9c.png",
+    "index.html": "/portafolio-personal/index.html",
+    "main.aca72c52.css.map": "/portafolio-personal/static/css/main.aca72c52.css.map",
+    "main.1a9ec6e7.js.map": "/portafolio-personal/static/js/main.1a9ec6e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aca72c52.css",
+    "static/js/main.1a9ec6e7.js"
+  ]
+}
