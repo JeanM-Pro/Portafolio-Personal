@@ -6,9 +6,9 @@ export const Portafolio = () => {
   return (
     <>
       <AppRouter />
-      <video autoPlay muted loop className="video-fondo">
+      {/* <video autoPlay muted loop className="video-fondo">
         <source src={fondo} type="video/mp4" />
-      </video>
+      </video> */}
       <div className="capa-fondo"></div>
     </>
   );
