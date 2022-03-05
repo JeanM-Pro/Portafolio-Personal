@@ -1,6 +1,6 @@
 import React from "react";
 import { AppRouter } from "./router/AppRouter";
-import fondo from "./video/fondo.mp4";
+// import fondo from "./video/fondo.mp4";
 
 export const Portafolio = () => {
   return (
